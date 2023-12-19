@@ -46,7 +46,7 @@ body {
     max-width:80vw;
 }
 
-.buyButton {
+.buyButton_main {
     display: inline-block;
     padding: 8px 16px;
     border-radius: 5px;
@@ -56,6 +56,19 @@ body {
     transform: scale(1);
     transition: 0.2s ease-in-out;
     box-shadow: 0 2px #4f6a02;
+}
+
+.buyButton_secondary {
+    display: inline-block;
+    padding: 4px 12px;
+    margin-left: 0px;
+    border-radius: 5px;
+    background-color: #6B654B;
+    color: #FFFFFF;
+    text-decoration: none;
+    transform: scale(1);
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px #2B252B;
 }
 
 a:hover {
@@ -209,7 +222,7 @@ h3{
     text-align: center;
     width: 30vw;
     min-width: 30vw;
-    margin: 20px auto;
+    margin: 20px auto 40px auto;
     height: 40px;
     line-height: 40px;
 }
