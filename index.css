@@ -35,7 +35,7 @@ body {
 #banner {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-around;
     min-height: 45vh;
@@ -237,6 +237,7 @@ h3{
 
     #banner {
         height: auto;
+        text-align: center;
     }
 
     #reviews ul li {
